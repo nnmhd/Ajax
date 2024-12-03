@@ -1,0 +1,21 @@
+#loading-animation {
+  max-width: 100px;
+  margin: 10px auto;
+}
+
+#loading-animation.hidden {
+  display: hidden;
+}
+
+#error-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    margin-top: 10px;
+    padding: 0 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
